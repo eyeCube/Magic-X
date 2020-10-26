@@ -1,0 +1,112 @@
+
+Card Layout / Reading Your Cards:
+	Name
+	Type Color
+	Info
+	(Soul Cost) 		Atk / Def
+	
+	Soul Cost == required number of sacrifices to summon
+	
+Controlling Cards:
+	1. You control the cards you summon.
+	2. You can use the cards you control (see Using Cards).
+	
+Equipping Cards:
+	See Using Cards 5.
+	
+Using Cards:
+	1. Each card can be used once per turn.
+	2. You can only use a card that you control.
+	2a. You can only use a card on your turn. Exception: cards with Triggers can be activated when the Trigger condition is met (see Trigger Conditions).
+	3. Attacking with a card uses that card.
+	4. Effects often require the card to be used in order to activate; this will be explicitly specified.
+	5. Equipping a card to another card uses the equipment card (so, you cannot equip a card and then use it in the same turn). However, if the card does not specify it must be used to activate its effect, the effect will constantly be active as long as it is equipped, including on the first turn it is equipped.
+
+Attacking Cards:
+	1. Cards with the Atk/ ability can be used to attack a target card (of your choice). When the attack is successfully resolved (all parties are done reacting to it -- see Reactions), the target is dealt damage equal to the attacking card's Attack value, which may be temporarily modified by Effects (see Effects).
+	
+Rows and Range:
+	1. Cards may be played in one of 3 rows on your field.
+	2. Attacks have range, which indicates how far away the target can be from the attacker. Cards are placed in rows (see Playing Cards / Summoning), with each player having 3 rows. Regular attacks can only attack targets 1 row away, so a Monster in the first row can attack another Monster in the first row on the opponent's field. But a Monster in the second row cannot reach any cards on the opponent's field unless it has a range of at least 2.
+	2a. All card with the Atk/ ability have a Range of 1 unless specified otherwise with the Ranged X/ field.
+	3. An exception to the above rule occurs when a player has an empty row, in which case that row can be ignored; e.g. if your first row is empty, then Monsters in the first row of your opponent's field can attack cards in your second row as if it was your first row -- likewise, if the opponent has any Monsters in the second row, they may attack cards in your first row (even with a Range of 1).
+
+Reactions:
+	1. When a card is used to attack or activate an effect, the opponent can react by activating an effect of their own. This is only possible if the effect is bound by a Trigger condition (see Trigger Conditions).
+	
+Effects:
+	1. Effects are special magical and nonmagical abilities that cards can activate under specific circumstances. Effects are unique for each card, and the exact effect is described by the value text.
+	1a. The specific circumstances under which an effect can be activated are indicated by a Trigger condition if applicable (see Trigger Conditions), or else the effect can only be activated on your turn. If the effect uses the card, it will indicate so (e.g. "Use to ..."), otherwise, the effect can only be activated once per turn.
+	
+Equips / Equipping / Equipment / Attachments / Attaching:
+	1. Some Magic cards have the Equip/ ability. These may be attached or "equipped" to another card that is currently in play (does not have to be a card you control). As long as that card is attached, its effect will be constantly active, affecting the card to which it is attached.
+	
+Trigger Conditions:
+	1. Some cards have effects that are preceded by a Trigger/ value. At the moment the condition indicated by the trigger is fulfilled, the associated effect can be activated.
+	1a. Effects with Trigger conditions cannot be activated by normal means unless specified explicitly.
+	2. Most Trap cards' effects are activated by Trigger conditions, but some Monsters also have effects with Trigger conditions.
+
+To Deal More Damage:
+	1. Monsters with the Support ability can be used to add +1 Atk to a target Monster you control for 1 turn.
+	2. Magic cards that deal damage can be used to add more damage to an attack. For instance, you can attack with a monster that has 2 Atk and use a firebomb (5 damage) both on the same target, resulting in an attack that deals 7 damage.
+	3. See Equipping Cards.
+
+Winning the Game / How to Win:
+	See Attacking Opponent - 2.
+	
+Attacking Opponent:
+	1. Each player begins the game with 8 shield points.
+	2. You can attack the opponent directly, dealing damage to their shield, or defeating them and winning the game if their shield is depleted. Direct attacks always deal 1 damage (-1 shield point) unless otherwise specified, regardless of the card's Attack value.
+	
+Elements / Elemental Combinations / Elemental Statuses:
+	1. Elements can be applied through various means, causing elemental status effects. These status effects apply to players directly.
+	2. Statuses have two types: standard, and combo. Standard elemental statuses occur when a singular element is applied, and combo statuses occur when two elements are combined. If a player already has a standard elemental status e.g. fire applied, then any subsequent elemental status applications of any other element incur a combo status. (To see which status will occur, see Elements 5)
+	3. Standard statuses / list of elements: fire, oil, miasma, curse
+	4. Combo statuses / effects: burning, explosion, everflame, poison, plague
+	4a. Burning (fire + oil): 1 direct damage / turn
+	4b. Explosion (fire + miasma): 1 direct damage and 1 damage to all cards on your field
+	4c. Everflame (fire + curse): 1 direct damage / turn (much harder to remove than Burning status)
+	4d. Poison (oil + miasma): 2 direct damage instantly
+	4e. Plague (miasma + curse): at the beginning of each turn, take 1 direct damage and 1 damage to all cards on your field
+
+Abilities / Info Boxes:
+	1. Atk: Card can be used to Attack (see Attacking Cards) target cards 1 row away.
+	2. Effect: Card has an effect (see Effects)
+	3. Support: Card can be used to add +1/+0 to target Monster you control for 1 turn.
+	4. Ranged X: Attacks can target cards X rows away.
+	5. Mobile: Card can be used to move itself one row forward or back (cannot be moved to opponent's field).
+	6. Equip: Card may be attached to another card (See Equips)
+	
+
+
+
+Rules of Thumb
+	Souls cost (# sacrifices req.):
+		Atk + Def		cost
+		<=5				0
+		<=10			1
+		<=14			2
+		<=17			3
+		<=20			4
+		<=22			5
+		>22				6+
+		Increases by 1 if it has a powerful effect like elemental application
+		Decreases by 1 if it has a bad detrimental effect
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
